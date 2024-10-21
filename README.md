@@ -25,9 +25,9 @@ Proyek ini memerlukan Python 3.x dan beberapa pustaka Python yang dapat diinstal
 Install dependensi:
 
 Gunakan pip untuk menginstal pustaka yang dibutuhkan dari file requirements.txt:
+Salin kode
 
 ```bash
-Salin kode
 pip install -r requirements.txt
 ```
 Pustaka yang dibutuhkan:
@@ -37,10 +37,10 @@ colorama
 
 Cara Penggunaan
 Jalankan skrip dengan perintah berikut di terminal:
+Salin kode
 
 ```bash
-Salin kode
-python generate-evm.py
+python3 generate-evm.py
 ```
 Masukkan jumlah dompet:
 Setelah menjalankan skrip, Anda akan diminta untuk memasukkan jumlah dompet yang ingin dibuat. Misalnya, jika Anda ingin membuat 5 dompet, cukup masukkan angka 5.
