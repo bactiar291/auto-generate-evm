@@ -19,34 +19,37 @@ Proyek ini memerlukan Python 3.x dan beberapa pustaka Python yang dapat diinstal
 1. **Clone repositori ini:**
 
    ```bash
-   git clone https://github.com/username/repo-name.git
+   git clone https://github.com/bactiar291/generate-evm.git
    cd repo-name
    ```
 Install dependensi:
 
 Gunakan pip untuk menginstal pustaka yang dibutuhkan dari file requirements.txt:
 
-bash
+```bash
 Salin kode
 pip install -r requirements.txt
+```
 Pustaka yang dibutuhkan:
 
-web3: Untuk menghubungkan ke blockchain Ethereum dan membuat akun EVM.
-colorama: Untuk mencetak teks berwarna di terminal.
+web3
+colorama
+
 Cara Penggunaan
 Jalankan skrip dengan perintah berikut di terminal:
 
-bash
+```bash
 Salin kode
-python <nama_skrip.py>
+python generate-evm.py
+```
 Masukkan jumlah dompet:
 Setelah menjalankan skrip, Anda akan diminta untuk memasukkan jumlah dompet yang ingin dibuat. Misalnya, jika Anda ingin membuat 5 dompet, cukup masukkan angka 5.
 
 Output:
 Alamat dompet baru dan kunci pribadi akan dicetak di terminal.
 Data akan disimpan ke dalam file wallets.txt di direktori yang sama.
+
 Contoh:
-bash
 Salin kode
 Masukkan jumlah dompet yang ingin dibuat: 3
 Alamat Dompet Baru: 0x1234567890ABCDEF1234567890ABCDEF12345678 ✔️
