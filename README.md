@@ -20,7 +20,7 @@ Proyek ini memerlukan Python 3.x dan beberapa pustaka Python yang dapat diinstal
 
    ```bash
    git clone https://github.com/bactiar291/generate-evm.git
-   cd repo-name
+   cd generate-evm
    ```
 Install dependensi:
 
