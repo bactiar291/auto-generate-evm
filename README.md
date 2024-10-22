@@ -2,6 +2,7 @@
 # EVM Wallet Generator
 # utamakan "git pull" sebelum menjalankan
 Sebuah skrip Python sederhana yang digunakan untuk membuat dompet Ethereum Virtual Machine (EVM) secara otomatis, lengkap dengan alamat dompet dan kunci pribadi. Skrip ini menggunakan `Web3` untuk membuat dompet dan `colorama` untuk menampilkan pesan berwarna di terminal.
+![Gambar](https://raw.githubusercontent.com/bactiar291/auto-generate-evm/main/generate.png)
 
 ## Fitur
 
